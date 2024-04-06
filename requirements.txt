@@ -1,6 +1,6 @@
 asyncio
 streamlit==1.31.0
-fitz==1.21.0
+PyMuPDF==1.21.0
 langchain==0.1.6
 langchain-google-genai==0.0.8
 langchain-community==0.0.31
