@@ -15,10 +15,10 @@ from langchain_core.messages import SystemMessage
 from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate
 from langchain.agents import initialize_agent, load_tools
 import langchain_google_genai as genai
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
-load_dotenv()
+#load_dotenv()
 api_key=os.environ.get("GOOGLE_API_KEY")
 llm = genai.GoogleGenerativeAI(model="gemini-pro",
                                verbose=True, # to see what the Agent is thinking
