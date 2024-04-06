@@ -1,8 +1,8 @@
 asyncio
 streamlit==1.31.0
 PyMuPDF==1.21.0
-langchain==0.1.6
+langchain
 langchain-google-genai==0.0.8
-langchain-community==0.0.31
-langchain-core==0.1.40
+langchain-community
+langchain-core
 duckduckgo-search==5.2.2
