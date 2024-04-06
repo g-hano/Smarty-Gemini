@@ -29,11 +29,20 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-After installation, you can run the Gemini-Pro Agent using Streamlit. Execute the following command in your terminal:
-```
-streamlit run app.py
-```
+After installation, you can utilize the Gemini-Pro Agent through its Streamlit web interface. Follow these steps to start interacting with the agent:
+
+1. **Prepare PDF Files**: Place any PDF files you want the agent to read and interpret in a folder named `Gemini` within the root directory of the project. This ensures the agent can easily access and analyze your documents.
+
+2. **Run the Application**: Execute the following command in your terminal to start the web interface:
+   ```
+   streamlit run app.py
+   ```
+   
+Through the web interface, you can query the agent, request information from integrated search platforms, and have your PDF documents read and interpreted. The agent's advanced language understanding and decision-making capabilities will ensure you receive relevant and accurate responses.
+
 This will start the web interface, where you can interact with the agent directly.
+
+[Watch the usage video](https://github.com/g-hano/Smarty-Gemini/blob/main/doc/usage60.mp4)
 
 ## How It Works
 The Gemini-Pro Agent uses the Langchain library to manage API and LLM calls, enabling it to interpret queries, decide the most appropriate tool or answer, and fetch data from various sources. The agent's decision-making process and language understanding capabilities are powered by Google's Gemini-pro LLM, ensuring high-quality responses.
