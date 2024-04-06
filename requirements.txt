@@ -4,6 +4,6 @@ PyMuPDF==1.21.0
 langchain==0.1.6
 langchain-google-genai==0.0.8
 langchain-community==0.0.31
-json==2.0.9
+json
 langchain-core==0.1.40
 duckduckgo-search==5.2.2
