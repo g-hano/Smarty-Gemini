@@ -87,7 +87,7 @@ def main():
 
     with st.sidebar:
         # Feature List
-        st.martkdown("## Features")
+        st.markdown("## Features")
         st.markdown("""
             - **Advanced Language Understanding**: At its core, the Gemini-Pro Agent leverages Google's Gemini-pro LLM, ensuring a deep comprehension of human language.
             - **Dynamic Tool Selection**: The agent autonomously decides the most suitable tool or response for each query, optimizing user experience.
