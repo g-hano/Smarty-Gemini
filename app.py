@@ -89,7 +89,7 @@ def main():
         # Display Linkedin logo and link
         col1, col2 = st.columns([0.5, 4])
         with col1:
-            st.image("doc\linkedin.png", width=30)
+            st.image("doc/linkedin.png", width=30)
         with col2:
             st.markdown(
                 "[Linkedin](https://www.linkedin.com/in/chanyalcin/)",
@@ -99,7 +99,7 @@ def main():
         # Display Github logo and link
         col1, col2 = st.columns([0.5, 4])
         with col1:
-            st.image("doc\github-sign.png", width=30)
+            st.image("doc/github-sign.png", width=30)
         with col2:
             st.markdown(
                 "[Github](https://github.com/g-hano)",
@@ -109,7 +109,7 @@ def main():
         # Display X logo and link
         col1, col2 = st.columns([0.5, 4])
         with col1:
-            st.image(r"doc\twitter.png", width=30)
+            st.image(r"doc/twitter.png", width=30)
         with col2:
             st.markdown(
                 "[X](https://twitter.com/Chan__Ya)",
