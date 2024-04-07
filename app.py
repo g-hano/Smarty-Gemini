@@ -86,8 +86,35 @@ def main():
             st.markdown(bot_template.replace("{{MSG}}", message["AI"]), unsafe_allow_html=True)
 
     with st.sidebar:
-        st.write("Linkedin: https://www.linkedin.com/in/chanyalcin/")
-        st.write("Github: https://github.com/g-hano")
+        # Display Linkedin logo and link
+        col1, col2 = st.columns([0.5, 4])
+        with col1:
+            st.image("Gemini\linkedin.png", width=30)
+        with col2:
+            st.markdown(
+                "[Linkedin](https://www.linkedin.com/in/chanyalcin/)",
+                unsafe_allow_html=True,
+            )
+
+        # Display Github logo and link
+        col1, col2 = st.columns([0.5, 4])
+        with col1:
+            st.image("Gemini\github-sign.png", width=30)
+        with col2:
+            st.markdown(
+                "[Github](https://github.com/g-hano)",
+                unsafe_allow_html=True,
+            )
+
+        # Display X logo and link
+        col1, col2 = st.columns([0.5, 4])
+        with col1:
+            st.image(r"Gemini\twitter.png", width=30)
+        with col2:
+            st.markdown(
+                "[X](https://twitter.com/Chan__Ya)",
+                unsafe_allow_html=True,
+            )
 
     with st.expander("Memory"):
         for message in st.session_state.chat_history:
